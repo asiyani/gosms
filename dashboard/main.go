@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/haxpax/gosms"
-	"github.com/haxpax/gosms/modem"
 	"log"
 	"os"
 	"strconv"
+
+	"github.com/haxpax/gosms"
+	"github.com/haxpax/gosms/modem"
 )
 
 func main() {

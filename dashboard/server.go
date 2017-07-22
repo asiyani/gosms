@@ -1,17 +1,18 @@
 package main
 
 import (
+	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/haxpax/gosms"
-	"github.com/gorilla/mux"
-	"github.com/satori/go.uuid"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
 	"strings"
-	"encoding/base64"
+
+	"github.com/gorilla/mux"
+	"github.com/haxpax/gosms"
+	"github.com/satori/go.uuid"
 )
 
 //reposne structure to /sms
